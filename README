@@ -174,8 +174,6 @@ Please take a look at the supplied "automysqlbackup.conf" for information about 
 If you want to use extra conf file, you need to use specification for all servers (https://dev.mysql.com/doc/refman/5.7/en/option-files.html)
 
 The file is like this :
-```html
-<pre>
 [mysql]
 user = ...
 password = ...
@@ -187,8 +185,6 @@ password = ...
 [mysqldump]
 user = ...
 password = ...
-</pre>
-```
 
 Parameters in this file will override parameters of default configuration file (for example : host and port) 
 
